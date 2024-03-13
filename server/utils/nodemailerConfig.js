@@ -4,7 +4,7 @@ module.exports = {
   port: 587,
   secure: false,
   auth: {
-    user: "test.1001.email.1001@gmail.com",
-    pass: "meql asqg aafu pysw",
+    user: process.env.USER,
+    pass: process.env.PASS,
   },
 };
